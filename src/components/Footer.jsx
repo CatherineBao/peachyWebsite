@@ -16,11 +16,11 @@ function Footer() {
                 <img className="w-5 h-5" src="https://cdn.iconscout.com/icon/free/png-256/deviantart-2749252-2284642.png"/>
              </div>
             <div className="flex items-center justify-center gap-10 text-sm">   
-                <Link to="/" onClick={() => setCaret(!caret)}> Home </Link>
-                <Link to="/"> ToS </Link>
-                <Link to="/" className="hidden lg:flex text-xl font-bold"> Logo </Link>
-                <Link to="/"> Gallery </Link>
-                <Link to="/"> Contact </Link>  
+                <Link className="hover:animate-pulse hover:scale-105 hover:text-red transition duration-200 ease-in-out" to="/" onClick={() => setCaret(!caret)}> Home </Link>
+                <Link className="hover:animate-pulse hover:scale-105 hover:text-red transition duration-200 ease-in-out" to="/"> ToS </Link>
+                <Link className="hover:animate-pulse hover:scale-105 hover:text-red transition duration-200 ease-in-out" to="/" className="hidden lg:flex text-xl font-bold"> Logo </Link>
+                <Link className="hover:animate-pulse hover:scale-105 hover:text-red transition duration-200 ease-in-out" to="/"> Gallery </Link>
+                <Link className="hover:animate-pulse hover:scale-105 hover:text-red transition duration-200 ease-in-out" to="/"> Contact </Link>  
             </div>
         </div>
       </div>

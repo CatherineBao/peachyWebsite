@@ -18,10 +18,10 @@ root.render(
   <React.StrictMode>
     <HashRouter>
       <Nav />
+      <ReturnToTop />
       <Routes>
         <Route path="/" element={<App />} />
       </Routes>
-      <ReturnToTop />
       <Footer />
     </HashRouter>
   </React.StrictMode>
